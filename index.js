@@ -1,7 +1,9 @@
+//requiring the necessary elements
 const inquirer = require("inquirer");
 const fs = require("fs");
 const { Triangle, Circle, Square } = require("./lib/shapes");
 
+//function for prompting the user with question where they can enter input about what characters they want to have(only up to three and at least one), what color the text will be, what shape they want, and what color they want the shape to be
 async function promptUser() {
   const userInput = await inquirer.prompt([
     {
@@ -38,6 +40,7 @@ async function promptUser() {
   return userInput;
 }
 
+//function for generating logo based on user input 
 function generateLogo(userInput) {
   let shape;
   switch (userInput.shape) {
@@ -66,6 +69,7 @@ function generateLogo(userInput) {
   console.log("Generated logo.svg");
 }
 
+//running the whole thing
 async function run() {
   const userInput = await promptUser();
   generateLogo(userInput);
