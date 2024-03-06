@@ -17,8 +17,8 @@ In order to install this tool you should clone the repository: git clone git@git
 ## Usage
 To use this application type ‘node index’ in the command line and answer the questions prompted to you.
 
-[See video demonstration](https://drive.google.com/file/d/15UgD-mwegYuxsutdEAhkRO-jATaPM-O1/view)
-![alttext](./assets/SC.png)
+[See video demonstration](https://drive.google.com/file/d/131HDLOBET-5Vlm1g9qvuBVCIFGu68XpC/view)
+![alttext](./assets/Screenshot.png)
 
 ## Credits
 Cassidy Kovell with help from a tutor and the Xpert Learning Assistant.
